@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="27.0.6">
   <diagram name="Seite-1" id="7OeyFhHkNfYd7drCodYM">
-    <mxGraphModel dx="1358" dy="1917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1141" dy="1797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -900,6 +900,18 @@
         </mxCell>
         <mxCell id="glLlzKumtliQa1-P7llP-264" value="SELECT COUNT(ArtikelNr) AS &#39;Anzahl Artikel mit geringem Lagerbestand&#39;&amp;nbsp;&lt;div&gt;FROM Artikel&amp;nbsp;&lt;/div&gt;&lt;div&gt;WHERE Lagerbestand &amp;lt; Mindestbestand&amp;nbsp;&lt;/div&gt;&lt;div&gt;AND&amp;nbsp;Auslaufartikel = 0&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="85" y="1550" width="415" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="R6mjijhPZwUzsKT8u0Sb-1" value="Fortbildung(&lt;u&gt;FBID&lt;/u&gt;,Name,Datum)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="105" y="1040" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R6mjijhPZwUzsKT8u0Sb-2" value="FortbildungMitarbeiter(&lt;u&gt;FMID&lt;/u&gt;,&lt;b style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 14px; text-align: start;&quot;&gt;↑&lt;/b&gt;FBID,&lt;b style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 14px; text-align: start;&quot;&gt;↑&lt;/b&gt;MitarbeiterID,AnmeldeDatum)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1080" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R6mjijhPZwUzsKT8u0Sb-3" value="Mitarbeiter(&lt;u&gt;MitarbeiterID&lt;/u&gt;,&lt;b style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 14px; text-align: start;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;↑&lt;/font&gt;&lt;/b&gt;FilialID,Vorname,Nachname)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="609" y="1060" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R6mjijhPZwUzsKT8u0Sb-4" value="Filiale(&lt;u&gt;FilialID&lt;/u&gt;,Name)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1000" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
