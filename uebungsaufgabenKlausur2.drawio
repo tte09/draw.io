@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="27.0.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="27.0.6">
   <diagram name="Seite-1" id="7OeyFhHkNfYd7drCodYM">
-    <mxGraphModel dx="1426" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1358" dy="1917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -868,38 +868,38 @@
         <mxCell id="glLlzKumtliQa1-P7llP-253" value="a)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="45" y="1130" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="glLlzKumtliQa1-P7llP-254" value="SELECT Artikelname, Lagerbestand FROM Artikel WHERE Lagerbestand &amp;lt; 10 ORDER BY Lagerbestand ASC" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="100" y="1135" width="610" height="20" as="geometry" />
+        <mxCell id="glLlzKumtliQa1-P7llP-254" value="SELECT Artikelname, Lagerbestand&amp;nbsp;&lt;div&gt;FROM Artikel&amp;nbsp;&lt;/div&gt;&lt;div&gt;WHERE Lagerbestand &amp;lt; 10&amp;nbsp;&lt;/div&gt;&lt;div&gt;ORDER BY Lagerbestand ASC&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="90" y="1130" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="glLlzKumtliQa1-P7llP-255" value="b)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="45" y="1155" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="glLlzKumtliQa1-P7llP-256" value="SELECT ArtikelNr, Artikelname FROM Artikel WHERE Artikelname LIKE &#39;%chef%&#39; OR Artikelname LIKE &#39;%wurst%&#39;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="100" y="1160" width="650" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="glLlzKumtliQa1-P7llP-257" value="c)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="45" y="1180" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="glLlzKumtliQa1-P7llP-258" value="SELECT KategorieNr, COUNT(ArtikelNr) AS &#39;Artikel pro Kategorie&#39; FROM Artikel GROUP BY KategorieNr ORDER BY COUNT(ArtikelNr) DESC" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="100" y="1185" width="970" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="glLlzKumtliQa1-P7llP-259" value="d)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="45" y="1205" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="glLlzKumtliQa1-P7llP-260" value="SELECT SUM(Einzelpreis * Lagerbestand) AS &#39;Wert Lagerbestand in €&#39; FROM Artikel" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="100" y="1210" width="970" height="20" as="geometry" />
+        <mxCell id="glLlzKumtliQa1-P7llP-256" value="SELECT ArtikelNr, Artikelname&amp;nbsp;&lt;div&gt;FROM Artikel&amp;nbsp;&lt;/div&gt;&lt;div&gt;WHERE Artikelname&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;LIKE &#39;%chef%&#39;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;OR Artikelname LIKE &#39;%wurst%&#39;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="90" y="1210" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="glLlzKumtliQa1-P7llP-257" value="c)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="45" y="1300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="glLlzKumtliQa1-P7llP-258" value="SELECT KategorieNr, COUNT(ArtikelNr) AS &#39;Artikel pro Kategorie&#39;&amp;nbsp;&lt;div&gt;FROM Artikel&amp;nbsp;&lt;/div&gt;&lt;div&gt;GROUP BY KategorieNr&amp;nbsp;&lt;/div&gt;&lt;div&gt;ORDER BY COUNT(ArtikelNr) DESC&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="90" y="1305" width="360" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="glLlzKumtliQa1-P7llP-259" value="d)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="45" y="1410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="glLlzKumtliQa1-P7llP-260" value="SELECT SUM(Einzelpreis * Lagerbestand) AS &#39;Wert Lagerbestand in €&#39;&amp;nbsp;&lt;div&gt;FROM Artikel&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="85" y="1415" width="415" height="35" as="geometry" />
         </mxCell>
         <mxCell id="glLlzKumtliQa1-P7llP-261" value="e)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="45" y="1230" width="60" height="30" as="geometry" />
+          <mxGeometry x="45" y="1470" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="glLlzKumtliQa1-P7llP-262" value="SELECT ArtikelNr, Artikelname, Lagerbestand, Mindestbestand, Lagerbestand - Mindestbestand AS &#39;Differenz&#39; FROM Artikel ORDER BY Differenz ASC" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="100" y="1235" width="970" height="20" as="geometry" />
+        <mxCell id="glLlzKumtliQa1-P7llP-262" value="SELECT ArtikelNr, Artikelname, Lagerbestand, Mindestbestand, Lagerbestand - Mindestbestand AS &#39;Differenz&#39;&amp;nbsp;&lt;div&gt;FROM Artikel&amp;nbsp;&lt;/div&gt;&lt;div&gt;ORDER BY Differenz ASC&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="85" y="1470" width="600" height="55" as="geometry" />
         </mxCell>
         <mxCell id="glLlzKumtliQa1-P7llP-263" value="f)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="45" y="1255" width="60" height="30" as="geometry" />
+          <mxGeometry x="45" y="1540" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="glLlzKumtliQa1-P7llP-264" value="SELECT COUNT(ArtikelNr) AS &#39;Anzahl Artikel mit geringem Lagerbestand&#39; FROM Artikel WHERE Lagerbestand &amp;lt; Mindestbestand AND&amp;nbsp;Auslaufartikel = 0" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="100" y="1260" width="970" height="20" as="geometry" />
+        <mxCell id="glLlzKumtliQa1-P7llP-264" value="SELECT COUNT(ArtikelNr) AS &#39;Anzahl Artikel mit geringem Lagerbestand&#39;&amp;nbsp;&lt;div&gt;FROM Artikel&amp;nbsp;&lt;/div&gt;&lt;div&gt;WHERE Lagerbestand &amp;lt; Mindestbestand&amp;nbsp;&lt;/div&gt;&lt;div&gt;AND&amp;nbsp;Auslaufartikel = 0&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="85" y="1550" width="415" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
